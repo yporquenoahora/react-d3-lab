@@ -86,12 +86,12 @@ const BarChart = ({ data }) => {
         .style("fill", "white")
 
       // draw axes
-      const xAxis = axisBottom(xScale)
+    /*   const xAxis = axisBottom(xScale)
       svg
         .append('g')
         .attr('class', 'x axis')
         .attr('transform', `translate(0,${height + margin.bottom / 3})`)
-        .call(xAxis)
+        .call(xAxis) */
 
       /* const yAxis = axisLeft(yScale).tickSize(0)
       svg

@@ -90,11 +90,11 @@ function RadarChart() {
         .attr('stroke', 'black');
       
       // Añadir ejes radiales y angulares
-      const radialAxis = axisRadialInner(radialScale);
+      /* const radialAxis = axisRadialInner(radialScale);
       const angularAxis = axisRadialInner(angularScale);
       
       svg.append('g').call(radialAxis);
-      svg.append('g').call(angularAxis);
+      svg.append('g').call(angularAxis); */
     
   return (
     <svg
